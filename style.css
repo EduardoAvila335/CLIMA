@@ -1,0 +1,65 @@
+body{
+    background-color: aquamarine;
+}
+
+
+header{
+    text-align: center;
+    margin: 5rem auto;
+    border: 2px solid black;
+    width: 30rem;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(110, 224, 224);
+    border-radius: 10px;
+}
+
+
+
+h1{
+    font-size: 3rem;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+select{
+    width: 20rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+button{
+    width: 10rem;
+    height: 30px;
+    border-radius: 10px;
+    border-color: aquamarine;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(5, 5, 113);
+}
+
+
+.clima{
+    display: flex;
+    gap: 20px;
+}
+
+div{
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+#modoescuro{
+    width: 30px;
+    border-radius: 25%;
+    background-color: rgb(64, 64, 64);
+}
